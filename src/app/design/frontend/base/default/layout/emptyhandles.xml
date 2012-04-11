@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <catalog_category_view_empty>
+        <!-- 
+            Layout code here to control empty category pages
+        -->
+    </catalog_category_view_empty>
+    <catalogsearch_result_index_empty>
+        <!-- 
+            Layout code here to control empty search result pages
+        -->
+    </catalogsearch_result_index_empty>
+    <checkout_cart_index_empty>
+        <!-- 
+            Layout code here to control empty cart pages
+        -->
+    </checkout_cart_index_empty>
+</layout>
