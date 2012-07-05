@@ -3,7 +3,7 @@
     <modules>
         <Dh_EmptyHandles>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </Dh_EmptyHandles>
     </modules>
 </config>

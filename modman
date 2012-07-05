@@ -1,3 +1,3 @@
-src/app/code/local/Dh/EmptyHandles                                  app/code/local/Dh/EmptyHandles
+src/app/code/community/Dh/EmptyHandles                              app/code/community/Dh/EmptyHandles
 src/app/etc/modules/Dh_EmptyHandles.xml                             app/etc/modules/Dh_EmptyHandles.xml
 src/app/design/frontend/base/default/layout/emptyhandles.xml        app/design/frontend/base/default/layout/emptyhandles.xml
