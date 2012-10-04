@@ -19,7 +19,8 @@ class Dh_EmptyHandles_Model_Handler_Catalogsearch_Result_Index
      */
 	public function execute(Varien_Event $event)
 	{
-		$numResults = (bool)Mage::helper('catalogsearch')->getEngine()->getResultCollection()->addSearchFilter(Mage::helper('catalogsearch')->getQuery()->getQueryText())->getSize();
+		$helper = Mage::helper('catalogsearch');
+		$numResults = (bool)$helper->getEngine()->getResultCollection()->addSearchFilter($helper->getQuery()->getQueryText())->getSize();
 		if (! $numResults) {
 			$this->_addHandle('catalogsearch_result_index_empty');
 		}
