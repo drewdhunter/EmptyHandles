@@ -1,0 +1,8 @@
+{
+    "name": "dh/emptyhandles",
+    "description": "Empty Handles",
+    "minimum-stability": "dev",
+    "type": "magento-module",
+    "require": {
+    }
+}
