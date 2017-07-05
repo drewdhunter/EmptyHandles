@@ -8,7 +8,7 @@
  * @package    Dh_EmptyHandles
  * @author     Drew Hunter <drewdhunter@gmail.com>
  */
-class Dh_EmptyHandles_Model_handler_Catalog_Category_View
+class Dh_EmptyHandles_Model_Handler_Catalog_Category_View
 	extends Dh_EmptyHandles_Model_Handler_Abstract
 {
     /**
@@ -17,7 +17,7 @@ class Dh_EmptyHandles_Model_handler_Catalog_Category_View
      * then apply a new layout handle: catalog_category_view_empty
      *
      * @param	Varien_Event $event
-     * @return	Dh_EmptyHandles_Model_Handler_Catalogsearch_Result_Index
+     * @return	Dh_EmptyHandles_Model_Handler_Catalog_Category_View
      */
 	public function execute(Varien_Event $event)
 	{
